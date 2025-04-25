@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Vijaya Sri Veeramalla</h1>
+      <p>Web Developer | Designer | Problem Solver</p>
+      <a href="resume.pdf" download class="btn">Download Resume</a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi,I am pursuring my engineering.I'm passionate about creating beautiful, responsive websites and applications. I enjoy working on frontend projects and love turning ideas into reality through code.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Technical:</strong> HTML, CSS, Python,Django </li>
+        <li><strong>Non-Technical:</strong> Communication, Problem-solving, Teamwork, Time Management</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio built with HTML, CSS, and responsive design techniques.</p>
+        <a href="https://github.com/vijju-143/html-tutorial" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Weather App</h3>
+        <p>It is a Live Weather App with a GUI built using tkinter. It allows users to enter a city name and then fetches and displays the current weather for that city using the OpenWeatherMap API.</p>
+        <a href="https://github.com/vijju-143/project" target="_blank">View Project</a>
+      </div>
+     
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/meogojnw" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required/>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" required/>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 <b>Vijaya Sri</b> | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
